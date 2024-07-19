@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Hathras</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+     <header class="flex flex-col justify-center items-center" >
+          <div class="flex  bg-h-Gray w-full justify-center items-center ">
+               <div class=" flex justify-between mx-12 bg-h-Gray py-2 w-full  md:max-w-7xl">
+                    <div>
+                         <a href="#" class=" text-h-f-gray">Location</a>
+                    </div>
+                    <div class=" flex">
+                         <div><a href="#" class=" text-h-f-gray" >Sign In/</a></div>
+                         <div><a href="#" class=" text-h-f-gray" >Sign Up</a></div>
+                    </div>
+               </div>
+          </div>
+           <!-- nav start -->
+           <div class="flex  w-full justify-center items-center " >
+               <div class=" backcolor   relative flex justify-between  md:justify-evenly items-center    md:mx-12 py-2 w-full  md:max-w-7xl">
+
+
+
+                    <div class=" pl-4" ><img src="/dist/asset/1 10.png" alt=""></div>
+                   
+
+                    
+                    <div class=" toggle-button pr-4   block md:hidden ">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                            </svg>
+                         </div>    
+
+
+                          <!-- 
+                         hamburger
+                     -->
+
+                     <div class=" dropdown-menu  bg-white-faint visible     absolute -top-[400%] w-full z-50 flex  flex-col gap-2  py-6  border-b-2  border-h-f2   justify-center items-center">
+
+
+                         <div class="py-2">
+                              <input class=" outline-none border border-h-f2  text-center rounded-lg h-8  bg-h-white" type="search" placeholder=" Search">
+                         </div>
+                         <span class=" bg-h-f2 h-px w-full    ">
+
+                         </span>
+
+
+                         <div class=" ">
+                              <li class=" list-none"><a class= " text-h-f-gray hover:text-h-orange  font-medium text-xl "  href="/dist/index.html">Home</a></li>
+                         </div>
+                         <div>
+                              <li class=" list-none"><a class= " text-h-f-gray hover:text-h-orange  font-medium text-xl "  href="/dist/shop.html">Shop</a></li>
+                         </div>
+                         <div>
+                              <li class=" list-none"><a class= " text-h-f-gray hover:text-h-orange  font-medium text-xl "  href="/dist/blog.html">Blog</a></li>
+                         </div>
+                         <div>
+                              <li class=" list-none"><a class= " text-h-f-gray hover:text-h-orange  font-medium text-xl "  href="/dist/faq.html">About Us</a></li>
+                         </div>
+                         <div>
+                              <li class=" list-none"><a class= " text-h-f-gray hover:text-h-orange  font-medium text-xl "  href="/dist/contact.html">Contact Us</a></li>
+                         </div>
+                       
+                     </div>
+
+
+                     <!-- 
+                    end
+                      -->
+
+
+                      <div class=" bg-h-orange rounded-md border border-solid border-h-f-gray overflow-hidden h-11  hidden md:block  ">
+                         <input type="text" placeholder="Search" class=" outline-none h-full    pl-4">
+                         <button class="text-h-white   px-4">Search</button>
+                    </div>
+                    <div class="hidden    md:flex mdjustify-center md:items-center  ">
+                         <div>
+                              <img src="/dist/asset/Heart.svg" alt="#">
+                         </div>
+                         <span class="h-6 bg-h-f-gray w-0.5 rounded-lg mx-3"></span>
+                         <div class=" flex justify-center items-center">
+                              <img src="/dist/asset/Cart.svg" alt="#">
+                              <div class="flex flex-col px-2 ">
+                                   <p class="text-h-f-gray">Shopping Cart</p>
+                                   <p class="text-h-f-gray">₹2357.00</p>
+
+                              </div>
+                             
+                         </div>
+                    </div>
+
+                            
+                    </div>
+
+                   
+                   
+
+               </div>
+               <!-- Nav End -->
+
+
+          <div class="sm:flex  w-full justify-center items-center bg-h-ff hidden">
+               <div class="flex justify-between items-center mx-12 py-2 w-full bg-h-ff  md:max-w-7xl">
+                    <nav class=" flex gap-3"><ul class="flex gap-5">
+                         <li class="text-h-f-gray hover:text-h-orange hover:cursor-pointer"><a href="/dist/index.html">Home</a></li>
+                         <li class="text-h-f-gray hover:text-h-orange hover:cursor-pointer"><a href="/dist/shop.html">Shop</a></li>
+                         <li class="text-h-f-gray hover:text-h-orange hover:cursor-pointer"><a href="/dist/blog.html">Blog</a></li>
+                         <li class="text-h-f-gray hover:text-h-orange hover:cursor-pointer"><a href="/dist/faq.html">About Us</a></li>
+                         <li class="text-h-f-gray hover:text-h-orange hover:cursor-pointer"><a href="/dist/contact.html">Contact Us</a></li>
+                    </ul></nav>
+               </div>
+          </div>
+          
+     </header>
+
+     <div>
+          <div class="flex    w-full justify-center items-center">
+               <div class="flex flex-col justify-center items-center  md:mx-12  py-2 pb-8 w-full ">
+                    
+                    <div class="py-10  my-10  text-5xl"><a class=" font-semibold  " href="#">Contact Us</a></div>
+                    <div class=" flex flex-col lg:flex-row   gap-3 lg:gap-10 ">
+                         <div class=" shadow-lg flex flex-col justify-evenly gap-x-0 lg:justify-center    items-center   ">
+
+                          <div class=" flex flex-col justify-center items-center px-7 pt-4">
+                            <p class=" text-3xl  font-semibold"  >For Bluk  Orders</p>
+                            <p class=" text-xl"> Enquire Now </p>
+                          </div>
+
+                              <div class=" h-48  gap-4 flex flex-col justify-center items-center  border-b-2    border-h-ff">
+                                   <img src="/dist/asset/Map Pin.svg" alt="#">
+                                   <p class="text-h-f-gray font-normal text-center text-base  text-sm  ">2715 Ash Dr. San Jose,<br> South Dakota 83475 </p>
+                              </div>
+                              <div class=" h-48 w-40 gap-4 flex flex-col justify-center items-center  border-b-2  border-h-ff">
+                                   <img src="/dist/asset/Group.svg" alt="#">
+                                   <p class="text-h-f-gray  text-center text-sm  ">Proxy@gmail.com
+                                        <br>Help.proxy@gmail.com
+                                   </p>
+                                   
+                              </div>
+                              <div class="h-48 gap-4 flex flex-col justify-center  border-b-2 lg:border-b-0 border-h-ff  items-center ">
+                                   <img src="/dist/asset/call.svg" alt="#">
+                                   <p class="text-h-f-gray text-center text-sm ">(219) 555-0114 <br>(164) 333-0487</p>
+                                   
+                              </div>
+
+
+                          </div>
+                          <div class="shadow-lg flex  items-center px-9 w-auto lg:ms-auto mx-auto text-center  ">
+                             
+
+                              <div class="max-w-screen-lg my-6 py-5  ">
+                                   <div class="flex-col gap-36 "> <div class=" text-left text-lg sm:text-xl font-semibold">Just Say Hello!</div>
+                                   <div class="text-left text-sm sm:text-lg ">Do you fancy saying hi to me or you want to get started with your  <br class=" hidden sm:block">project and you need my help? Feel free to contact me.</div>
+                                        </div>
+                                  
+                                   <div class="grid grid-cols-1 md:grid-cols-12   py-4 ">
+                                       
+                                       <form class="md:col-span-12   ">
+                                           <div class="md:flex-row flex     flex-col     mb-4   ">
+                                               <div class="w-full md:w-1/2   md:mb-0   mb-3    mr-2  ">
+                                                   
+                                                   <input
+                                                       class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                                                       id="grid-first-name" type="text" placeholder="Template Cookie">
+                                                   
+                                               </div>
+                                               <div class="w-full md:w-1/2 ">
+                                                   
+                                                   <input
+                                                       class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                                       id="grid-last-name" type="text" placeholder="Hello">
+                                               </div>
+                                           </div>
+                                           <div class="flex flex-wrap -mx-3  mb-2 ">
+
+                                               <div class="w-full px-3">
+                                                   
+                                                   <input
+                                                       class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                                       id="grid-email" type="email" placeholder="zakirsoft@gmail.com">
+                                               </div>
+                                           </div>
+                               
+                                           <div class="flex flex-wrap -mx-3 mb-6">
+                                               <div class="w-full px-3">
+                                                   
+                                                   <textarea rows="4" placeholder="Subjects"
+                                                       class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
+                                               </div>
+                                               <div class="flex justify-between w-full px-3">
+                                                   <!-- <div class="md:flex md:items-center">
+                                                       <label class="block   text-gray-500 font-bold">
+                                                           <input class="mr-2 leading-tight" type="checkbox">
+                                                           <span class="scale-50 md:scale-100 ">
+                                                               Send me your newsletter!
+                                                           </span>
+                                                       </label>
+                                                   </div> -->
+                                                   <button
+                                                       class=" bg-h-orange text-h-white shadow-2xl hover:bg-indigo-400  focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+                                                       type="submit">
+                                                       Send Message
+                                                   </button>
+                                               </div>
+                               
+                                           </div>
+                               
+                                       </form>
+                               
+                                   </div>
+                               </div>
+                          </div>
+                         
+
+                    </div>
+                    <!-- <div class="py-10"><a class="text-6xl   font-semibold" href="#">Contact Us</a></div> -->
+
+               </div>
+          </div>
+     </div>
+     <div class="relative w-full  bg-h-v-fgray">
+          <div class="w-full bg-h-v-fgray  px-8 py-4 mx-auto max-w-7xl">
+               <div class="grid  grid-cols-1   gap-10 lg:grid-cols-3 ">
+                    <div class="flex justify-center py-5 items-center flex-col gap-4">
+                         <p class=" font-semibold   text-h-black text-2xl">Subscribe our newsletter</p>
+                         <p class=" font-normal text-center   text-h-black ">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
+                    </div>
+                      
+                    
+                    
+                    <div class="  flex justify-center items-center">
+                         <div class="  flex max-w-96  rounded-full bg-h-white  justify-center items-center border  border-h-f-gray">
+                              <input class=" pl-4 overflow-hidden outline-none bg-transparent w-full " type="text" placeholder="Your Mail address">
+                              <button class=" bg-h-orange text-h-white hover:scale-105 transition-transform duration-300  rounded-full h-10  px-6">Subscribe</button>
+                            </div>
+                    </div>
+                    <div class=" flex gap-6 justify-center py-5 lg:justify-start items-center">  
+
+                         <div class= "group peer hover:scale-125   peer-hover:scale-110 transition-transform ease-in duration-100  hover:bg-h-orange h-12 w-12 flex justify-center items-center rounded-full" >
+                              <a class="text-icon-gray group-hover:text-h-white" aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="h-8">
+                              <path fill="currentColor"
+                                  d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                              </path>
+                               </svg>
+                              </a>
+                        </div>
+                         <div class= "group peer hover:scale-125   peer-hover:scale-110 transition-transform ease-in duration-100 hover:bg-h-orange h-12 w-12 flex justify-center items-center rounded-full">
+                              <a class="text-icon-gray group-hover:text-h-white" aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg
+                              class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                              <path fill="currentColor"
+                                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                              </path>
+                              </svg>
+                              </a>
+                              
+                         </div>
+                         <div class= "group peer hover:scale-125   peer-hover:scale-110 transition-transform ease-in duration-100  hover:bg-h-orange  h-12 w-12 flex justify-center items-center rounded-full"> 
+                              <a class="text-icon-gray group-hover:text-h-white" aria-label="Visit TrendyMinds YouTube" href="" target="_blank"><svg
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-8">
+                              <path fill="currentColor"
+                                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                              </path>
+                           </svg>
+                            </a>
+                         </div>
+                         <div class= "group peer hover:scale-125   peer-hover:scale-110 transition-transform ease-in duration-100  hover:bg-h-orange h-12 w-12 flex justify-center items-center rounded-full">  
+                               <a class="text-icon-gray group-hover:text-h-white" aria-label="Visit TrendyMinds Instagram" href="" target="_blank"><svg
+                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-8">
+                              <path fill="currentColor"
+                                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                              </path>
+                          </svg>
+                           </a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          
+               
+     </div> 
+
+
+     <footer class="relative w-full  bg-h-black">
+          <div class="w-full px-8 py-4 mx-auto max-w-7xl">
+            <div class="grid  grid-cols-1   gap-4 md:grid-cols-3 ">
+              
+              <div class=" flex flex-col col-span-1   min-w-60 max-w-72">
+               <img class="w-52 h-32" src="/dist/asset/2 716.png" alt="#">
+               <ul>
+                    <p
+                    class="block mb-3 font-sans text-h-f2 text-sm min-w-72 antialiased font-medium leading-normal text-blue-gray-900 ">
+                    Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.
+                  </p>
+                  <div class="flex min-w-72 items-center">
+                    <div class="border-b-2 border-h-green"><a href="#" class="text-h-white">(219) 555-0114</a></div>
+                    <div><a href="#" class="text-h-f2 px-2">Or</a></div>
+                    <div class="border-b-2 border-h-green"><a href="#" class="text-h-white">Proxy@gmail.com</a></div>
+                    
+
+                  </div>
+               </ul>
+              </div>
+              <div class="grid justify-between items-center col-span-2 grid-rows-2 grid-cols-2  md:grid-cols-4 py-6 md:py-1 md:grid-rows-1 gap-4">
+                <ul>
+                  <p
+                    class="block mb-3 font-sans text-h-white text-sm antialiased font-medium leading-normal text-blue-gray-900 ">
+                    My Account
+                  </p>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      My Account
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Order History
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Shoping Cart
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Wishlist
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                    <p
+                      class="block mb-3 font-sans text-h-white text-sm antialiased font-medium leading-normal text-blue-gray-900 ">
+                      Helps
+                    </p>
+                    <li>
+                      <a href="/dist/contact.html"
+                        class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                        Contact
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                        Faqs
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="block py-1.5 font-sans text-base font-normal leading-relaxed antialiased transition-colors text-h-f2   hover:text-h-white">
+                        Terms & Condition
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                        Privacy policy
+                      </a>
+                    </li>
+                  </ul>
+                <ul>
+                  <p
+                    class="block mb-3 font-sans text-h-white text-sm antialiased font-medium leading-normal text-blue-gray-900 ">
+                    proxy
+                  </p>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed antialiased transition-colors text-h-f2   hover:text-h-white">
+                      About us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Shop
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Product
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Track Order
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                  <p
+                    class="block mb-3 font-sans text-h-white  text-sm antialiased font-medium leading-normal text-blue-gray-900 ">
+                    Categories
+                  </p>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Fruits & Vegetables
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Meat & Fish
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                      Bread & Bakery
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                    class="block py-1.5 font-sans text-base font-normal leading-relaxed  antialiased transition-colors text-h-f2   hover:text-h-white">
+                    Beauty & Health
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center w-full py-4 mt-12 border-t border-h-f-gray md:flex-row md:justify-between">
+              <p
+                class="block mb-4 font-sans text-sm antialiased font-normal leading-normal text-center text-h-white md:mb-0">
+                Hathras © 2021. All Rights Reserved
+              </p>
+              <div class="flex gap-4 text-blue-gray-900 sm:justify-center">
+                <a href="#"
+                  class="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
+                  <img src="/dist/asset/Method=ApplePay.svg" alt="#">
+                </a>
+                <a href="#"
+                  class="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
+                  <img src="/dist/asset/Method=Visa.svg" alt="#">
+                </a>
+                <a href="#"
+                  class="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
+                  <img src="/dist/asset/Method=Discover.svg" alt="#">
+                </a>
+                <a href="#"
+                  class="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
+                  <img src="/dist/asset/Method=Mastercard.svg" alt="#">
+                </a>
+                <a href="#"
+                  class="block font-sans text-base antialiased font-light leading-relaxed transition-opacity text-inherit opacity-80 hover:opacity-100">
+                  <img src="/dist/asset/Cart (1).svg" alt="#">
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+	 
+
+        <script>
+          const toggleBtn =document.querySelector(".toggle-button");
+          const dropdown  =document.querySelector(".dropdown-menu");
+          const backColor =document.querySelector("backcolor");
+
+          toggleBtn.addEventListener( "click", ()=> {
+               dropdown.classList.toggle("top-full");
+               backColor.classList.toggle("bg-white-faint")
+
+          })
+
+
+      </script>
+     
+  </body>
+</html>
+     
